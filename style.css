@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Rubik:ital,wght@1,300&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Fira+Sans:wght@300&family=Rubik:ital,wght@1,300&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(179, 168, 168);
+    width: 10vw;
+    font-family: 'Fira Sans';
+    height: 87vh;
+}
+
+.sidebar{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main{
+    width: 85vw;
+    height: 100vh;
+}
+
+.container{
+    display:flex;
+}
+
+.infocontainer{
+    height: 60vh;
+    width: 72vw;
+    margin: 144px auto;
+    display: flex;
+    text-justify: left;
+    justify-content: space-between;
+    font-family: cuprum;
+}
+
+.divInfo{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Source Code Pro;
+}
+
+.Hello{
+    font-size: 85px;
+}
+.Name{
+     font-size: 70px;
+     font-weight: bold;
+     font-family: Fira Sans;
+}
+.About{
+    font-size: 25px;
+    font-family: Fira Sans;
+}
+
+
+.More{
+    font-size: 30px;
+    font-family: Source Code Pro;
+    margin-top: 23px;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 34px;
+}
+
+    .buttons button{
+        padding: 9px 14px;
+        border-radius: 25px;
+        color: white;
+        background-color: rgb(73, 73, 110);
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .buttons button:hover{
+        background-color: white; 
+        color: #000;
+        opacity: 0.6;
+    }
+ .divPic img{
+    height: 428px;
+    height: 60vh;
+
+ }
+
+ .Aashish{
+    font-size: 35px;
+    text-align: center;
+ }
+ .tharu{
+    height: 490px;
+    width: 50%;
+
+ }
+ .Chaudhary{
+    height: 5000px;
+    width: 50%;
+    float: right;
+ }
+ .CV{
+    justify-content: center;
+ }
